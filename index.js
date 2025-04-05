@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route to handle the default page
 app.get('/', function(request, response) {
-  response.send('Testing pipeline! O.o ');
+  response.send('Testing pipeline with cortab auto update! OwO ');
 });
 
 // Listen on all interfaces (0.0.0.0), not just localhost
